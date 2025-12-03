@@ -5,12 +5,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot Configuration
-API_ID = os.getenv("API_ID", "4857766")
-API_HASH = os.getenv("API_HASH", "6c3c6facf5598a4b318e138f8c407028")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7936596591:AAER2UobMr44zDa1lrUxcQfDgnHaPL8mHZI")
-MONGODB_URI = os.getenv("MONGODB_URI", "mongodb+srv://hello:hello@cluster0.vc2htx0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+API_ID = os.getenv("API_ID", "")
+API_HASH = os.getenv("API_HASH", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+MONGODB_URI = os.getenv("MONGODB_URI", "")
 DB_NAME = os.getenv("DB_NAME", "ytdl_bot_db")
-ADMINS = list(map(int, os.getenv("ADMINS", "7361945688").split()))
+ADMINS = list(map(int, os.getenv("ADMINS", "").split()))
 
 # List of additional IDs to add
 ADDITIONAL_IDS = [1596559467]  # Add as many as needed
