@@ -13,7 +13,7 @@ DB_NAME = os.getenv("DB_NAME", "ytdl_bot_db")
 ADMINS = list(map(int, os.getenv("ADMINS", "").split()))
 
 # List of additional IDs to add
-ADDITIONAL_IDS = [1596559467]  # Add as many as needed
+ADDITIONAL_IDS = [123456]  # Add as many as needed
 
 # Extend the ADMINS list with additional IDs
 ADMINS.extend(ADDITIONAL_IDS)
