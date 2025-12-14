@@ -212,10 +212,6 @@ TASKS = 20
 
 The bot supports 1000+ websites through yt-dlp, including:
 - YouTube
-- Instagram
-- Facebook
-- Twitter/X
-- TikTok
 - Vimeo
 - Dailymotion
 - And many more...
