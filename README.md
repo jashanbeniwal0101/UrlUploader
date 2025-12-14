@@ -1,4 +1,4 @@
-# Yt-dlp Url Uploader Telegram Bot
+# Url Uploader Bot
 
 A feature-rich Telegram bot for downloading videos from YouTube and various other platforms using yt-dlp. Built with Pyrogram and MongoDB.
 
